@@ -1,0 +1,117 @@
+@charset "UTF-8";
+header {
+  background-color: rgba(36, 183, 203, 0.91);
+  color: white;
+  position: relative;
+  display: block;
+  /*height: 200px;*/
+}
+
+header img {
+  width: 100%;
+}
+
+footer {
+  background-color: #009;
+  font-size: 48px;
+  padding-top: 0.5em;
+  text-align: center;
+}
+
+nav {
+  background-color: rgba(36, 183, 203, 0.91);
+  height: 20px;
+  padding-top: 0.5em;
+}
+
+nav ul {
+  width: 60;
+  margin: auto;
+}
+
+nav li {
+  float: left;
+  text-align: center;
+  width: 25%;
+}
+
+nav a {
+  background-color: rgba(36, 183, 203, 0.91);
+  color: black;
+  display: block;
+  height: 20px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: yellow;
+  display: block;
+}
+
+/*text formatting*/
+
+body {
+  color: black;
+}
+
+header h1 {
+  color: White;
+  font-size: 2.5em;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  text-transform: capitalize;
+}
+
+h2 {
+  padding: 5%;
+  color: black;
+  text-align: center;
+  font-size: 1.25em;
+  text-transform: capitalize;
+}
+
+p {
+  padding: 0.5em;
+  color: black;
+}
+
+footer {
+  clear: both;
+  background-color: rgba(36, 183, 203, 0.91);
+}
+
+.clearfix {
+  clear: both;
+}
+
+.clearfix::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+img {
+  width: 400px;
+}
+
+section{
+  padding: 5px;
+  list-style-position: inside;
+  list-style-type: square;
+  margin: 0.5px;
+  }
+  
+section.black {
+color: black;}
+
+.history p{
+float: left;
+}
+iframe { width:inherit;
+height: auto;
+float: left;
+}
+
+/*Don't use a lot of margins*/

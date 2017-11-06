@@ -1,0 +1,41 @@
+/*reset stuff*/
+address, article, aside, blockquote, body, cite,
+div, dl, dt, dd, em, figcaption, figure, footer,
+h1, h2, h3, h4, h5, h6, header, html, img,
+li, main, nav, ol, p, section, span, ul {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   vertical-align: baseline;
+   background: transparent;
+}
+
+body, header, nav, main, footer, ul, li, img, section{
+  display: block;
+  box-sizing: border-box;
+}
+
+/*collapse prevention*/
+.clearfix {clear: both;}
+.clearfix::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+/*generic styling*/
+html {
+  height: 100%;
+  background-color: rgb(193, 178, 236);
+  font-family: serif;
+}
+
+body {
+  width: 95%;
+  min-width: 640px;
+  max-width: 960px;
+  background-color: rgb(246, 239, 240);
+  margin: 10px auto;
+  border: 0px solid green;
+}
