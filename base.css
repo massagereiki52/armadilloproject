@@ -4,6 +4,7 @@ header {
   color: white;
   position: relative;
   display: block;
+
   /*height: 200px;*/
 }
 
@@ -62,7 +63,12 @@ header h1 {
   left: 25%;
   transform: translate(-50%, -50%);
   text-transform: capitalize;
+  text-outline: 6px 6px brown;
+  text-shadow: 4px 4px 6px hsl(266, 53%, 68%);
+
+
 }
+
 
 h2 {
   padding: 5%;
@@ -93,22 +99,58 @@ footer {
 }
 
 img {
-  width: 400px;
+  width: 100%;
+}
+img#recipe {
+  width: 50%;
+  float: left;
+padding: 40px;
+}
+img#safety {
+  width: 50%;
+  float: left;
+  padding: 40px;
 }
 
 section{
   padding: 5px;
   list-style-position: inside;
   list-style-type: square;
-  margin: 0.5px;
+  margin: 1px;
   }
-  
-section.black {
-color: black;}
-
-.history p{
-float: left;
+section#index
+{
+  height: 20px;
+  padding-top: 0.5em;
+  display: block;
 }
+
+section#index ol {
+  width: 60;
+  margin: auto;
+}
+
+section#index li {
+  float:right;
+  text-align:
+  width:15%;
+  padding:0.5em;
+}
+
+section#index a {
+  background-color:rgb(138, 172, 34);
+  color: black;
+  display: block;
+  height: 20px;
+  text-decoration: none;
+  align-items: center;
+}
+
+section#index a:hover {
+  background-color: yellow;
+  display: block;
+}
+
 iframe { width:inherit;
 height: auto;
 float: left;
